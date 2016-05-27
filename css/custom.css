@@ -33,6 +33,11 @@ header{
 	margin-bottom:0px;
 }
 
+.margin-t-15{
+  margin-top:15px!important;
+}
+
+
 /*HEIGHT*/
 .height-70{
 	height:70px;
@@ -52,3 +57,5 @@ header{
 .navbar-default .navbar-brand{
   color:#fff;
 }
+
+
