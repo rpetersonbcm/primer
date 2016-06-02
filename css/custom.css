@@ -1,76 +1,8 @@
-/*HEADER*/
-header{
-  position:relative!important;
+
+/* First Top Nav Bar with Heading */
+.above-navbar{
+	background-color:#fff;
+	border-bottom: 10px solid #01ADDE;
+	width: 100%;
 }
-
-
-/*BACKGROUNDS*/
-.bg-blue{
-	background-color:#57c8f2;
-}
-.bg-white{
-	background-color: #fff;
-}
-.bg-black{
-	background-color: #000;
-}
-
-/*PADDING*/
-.padding-b-20{
-	padding-bottom: 20px;
-}
-
-.padding-l-0{
-  padding-left: 0px!important;
-}
-
-.padding-t-30{
-	padding-top:30px;
-}
-
-
-.clear{
-	clear: both;
-}
-
-/*MARGINS*/
-.margin-b-0{
-	margin-bottom:0px;
-}
-
-.margin-t-0{
-  margin-top:0px;
-}
-
-.margin-t-15{
-  margin-top:15px!important;
-}
-
-
-/*HEIGHT*/
-.height-70{
-	height:70px;
-}
-
-/*NO BORDERS*/
-.no-border{
-  border:none;
-}
-
-/*COLORS*/
-.text-white{
-	color:#fff;
-}
-
-/*-----------------------------NAVBAR STYLES--------------------*/
-.navbar-default .navbar-nav li a,
-.navbar-default .navbar-brand{
-  color:#fff;
-}
-
-/*-----------------------------------VEIWS DIVS ---------------------*/
-.views{
-  display:none;
-}
-
 
