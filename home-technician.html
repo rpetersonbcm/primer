@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Primer Database - Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+    	<div  class="container first-navbar">
+        
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="#"><a href=""><img src="img/bmgl/bmgl-logo.png" alt=""></a></a>
+            </div>
+           
+        </div>
+        <!-- /.container -->
+        <div class="container ">
+        
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Primer Database</a>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            	<ul class="nav navbar-nav">
+            		<li><a href="">genetictest@bmgl.com</a></li>
+            	</ul>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technician Options <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Build Query</a></li>
+                            <li><a href="#">Run Saved Query</a></li>
+                            <li><a href="#">View Amplicon</a></li>
+                            <li><a href="#">View Primer</a></li>                            
+                            <li><a href="#">Update Location</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Standard Reports <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Freezer Box Inventory</a></li>
+                            <li><a href="#">Low Rem Volume</a></li>
+                            <li><a href="#">Expiring Primers</a></li>
+                            <li><a href="#">SNP</a></li>                            
+                            <li><a href="#">Freq Used Primers</a></li>
+                            <li><a href="#">Vacant Slots</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+       
+          <div class="row custom-container" id="search-section">
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>             
+              <li class="active">Search</li>
+            </ol>
+            <div class="col-md-1">
+                <h3>Search:</h3>
+            </div>
+            <div class="col-md-3">
+            <h3></h3>
+                <form class="form-horizontal">                        
+                    <div class="table-responsive">
+                      <table class="table table-borderless top-table">
+                        <tbody>
+                            <tr>
+                                <td class="main-label">Gene</td>
+                                <td ><input type="text" class="form-control" id="" placeholder=""> </td>
+                            </tr>
+                            <tr>
+                                <td class="main-label">Alias</td>
+                                <td ><input type="text" class="form-control" id="" placeholder=""> </td>
+                            </tr>   
+                            <tr>
+                                <td class="main-label">Chromosome</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+                            </tr>
+                            <tr>
+                                <td class="main-label">Genomic Start</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+                               
+                            </tr>
+                            <tr>
+                                <td class="main-label">Genomic Start</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+                               
+                            </tr>
+                            <tr>
+                                <td class="main-label">Nucleotide</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+                            </tr>
+                            <tr>
+                                <td class="main-label">Amplicon Name</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+                            </tr>
+                            <tr>
+                                <td class="main-label">PCR Program</td>
+                                <td>
+                                    <select class="form-control">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="main-label">Save Query As</td>
+                                <td><input type="text" class="form-control" id="" placeholder=""> </td>
+
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+            <h3></h3>
+            <div class="btn-group-vertical">
+                <input type="button" class="btn btn-info" value="Submit">
+                <input type="button" class="btn btn-info" value="Resest">
+                <input type="button" class="btn btn-info" value="Save">
+            </div>                
+            </div>            
+          </div>
+          
+          <div class="row custom-container" id="search-buttons">
+          <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info">Save</button>
+                    <button type="button" class="btn btn-info">Reset</button>
+                    <button type="button" class="btn btn-info" id="results-submit">Submit</button>
+                </div>                    
+            </div>                
+          </div>
+          <hr style="height:1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)); margin: 0px;" class="">
+        
+
+       
+          <!-- Example row of columns -->
+          <div class="row results">
+            <div class="container" id="results-search">
+              <!-- Portfolio Item Heading --> 
+              <div class="row">
+                  <h2 class="page-header">Results</h2> 
+
+              </div>                
+                     
+             <!-- /.row -->
+              
+              <div class="col-md-10">             
+               <button type="button" class="btn btn-info margin-b-10"><i class="fa fa-refresh" aria-hidden="true"></i> Refresh</button>
+               <table class="table table-bordered">
+                   <thead>
+                       <tr>
+                           <th>Amplicon</th>
+                           <th>Forward Primer</th>
+                           <th>Reverse Primer</th>
+                           <th>Qc</th>
+                           <th>Freezer</th>
+                           <th>Shelf-Rack</th>
+                           <th>Box</th>
+                           <th>Cell</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                           <td>MHS2-HSE</td>
+                           <td>MHS2-HSEReq-Fwd</td>
+                           <td>MHS2-HSEReq-Rev</td>                         
+                           <td>Y</td>
+                           <td>M-1</td>
+                           <td>1-15</td>
+                           <td>C</td>
+                           <td>C-2/D-2</td>
+                       </tr>
+                       <tr>
+                           <td>MHS2-HSE</td>
+                           <td>MHS2-HSEReq-Fwd</td>
+                           <td>MHS2-HSEReq-Rev</td>                         
+                           <td>Y</td>
+                           <td>M-1</td>
+                           <td>1-15</td>
+                           <td>C</td>
+                           <td>C-2/D-2</td>
+                       </tr>
+                       <tr>
+                          <td>MHS2-HSE</td>
+                           <td>MHS2-HSEReq-Fwd</td>
+                           <td>MHS2-HSEReq-Rev</td>                         
+                           <td>Y</td>
+                           <td>M-1</td>
+                           <td>1-15</td>
+                           <td>C</td>
+                           <td>C-2/D-2</td>
+                       </tr>
+                   </tbody>
+               </table>
+            </div>  
+          </div>
+        </div>
+          
+        
+       
+
+    
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
